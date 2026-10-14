@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Local data
+data/*
+!data/.gitkeep
+
+# AI models
+models/*.pt
+models/*.onnx
+
+# Temporary files
+*.log
