@@ -1,28 +1,61 @@
-
 # Python
-__pycache__/
+**pycache**/
 *.py[cod]
-*.pyd
+*$py.class
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 env/
 
-# Environment variables
-.env
+# Environment variables and secrets
 
-# IDE
+.env
+.env.*
+!.env.example
+
+# IDE / editor
 .vscode/
 .idea/
 
-# Local data
-data/*
-!data/.gitkeep
+# OS files
 
-# AI models
-models/*.pt
-models/*.onnx
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Temporary files
+# Logs and temporary files
+
 *.log
+logs/
+temp/
+tmp/
+
+# Captured images and videos
+
+captures/
+recordings/
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights and generated model files
+
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# Local datasets
+
+datasets/
+data/private/
+
+# Test and coverage artifacts
+
+.pytest_cache/
+.coverage
+htmlcov/
