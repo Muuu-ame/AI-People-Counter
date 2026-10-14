@@ -59,3 +59,4 @@ data/private/
 .pytest_cache/
 .coverage
 htmlcov/
+yolo26n-reid.onnx
